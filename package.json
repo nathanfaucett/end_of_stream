@@ -1,5 +1,5 @@
 {
-  "name": "end_of_stream",
+  "name": "@nathanfaucett/end_of_stream",
   "version": "0.0.1",
   "description": "call function on end of stream for the browser and node.js",
   "repository": {
@@ -21,16 +21,16 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-jsbeautifier": "^0.2.10",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.2",
     "zuul": "^3.7.2"
   },
   "dependencies": {
-    "is_array": "git://github.com/nathanfaucett/is_array.git",
-    "is_function": "git://github.com/nathanfaucett/is_function.git",
-    "once": "git://github.com/nathanfaucett/once.git"
+    "@nathanfaucett/is_array": "^0.0.1",
+    "@nathanfaucett/is_function": "^0.0.1",
+    "@nathanfaucett/once": "^0.0.1"
   }
 }

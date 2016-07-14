@@ -1,6 +1,6 @@
-var once = require("once"),
-    isArray = require("is_array"),
-    isFunction = require("is_function");
+var once = require("@nathanfaucett/once"),
+    isArray = require("@nathanfaucett/is_array"),
+    isFunction = require("@nathanfaucett/is_function");
 
 
 module.exports = endOfStream;
